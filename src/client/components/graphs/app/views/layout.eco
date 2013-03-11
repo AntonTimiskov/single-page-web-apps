@@ -1,0 +1,4 @@
+<div class="q-graph">
+    <%- require('views/bar-item')(@) %>
+    <%- require('views/legend-item')(@) %>
+</div>

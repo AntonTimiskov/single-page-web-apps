@@ -1,0 +1,21 @@
+<div class="q-panel">
+    <div class="q-header">
+        <div class="q-position">
+            <span class="number"><%= @count %></span>
+            <span class="title"><%= @title %></span>
+        </div>
+    </div>
+    <div class="q-content">
+        <div class="q-body">
+            
+        </div>
+    </div>
+    <div class="q-footer">
+        <div class="q-link">
+            <a href="#">Show all</a>
+        </div>
+        <div class="q-refresh">
+            <a href="#"><img src="/static/refresh.png"></a>
+        </div>
+    </div>
+</div>

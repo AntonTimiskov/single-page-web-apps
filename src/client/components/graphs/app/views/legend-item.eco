@@ -1,0 +1,9 @@
+<div class="q-legend">
+    <% for job,index in @items: %>
+        <div class="q-legend-item q-item-<%= index %>">
+            <div class="q-legend-bar"></div>
+            <div class="q-legend-name"><%= job.status %></div>
+            <div class="q-legend-value"><%= job.value %> (<%- @percent(@items, job.value) %>%)</div>
+        </div>
+    <% end %>
+</div>

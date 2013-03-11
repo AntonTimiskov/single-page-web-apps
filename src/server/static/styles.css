@@ -1,0 +1,12 @@
+body {
+    font: 14px 'MS Trebuchet';
+    background-color:#eee;
+}
+
+body > .body-wrapper {
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-130px;
+    margin-top:-130px;
+}

@@ -1,0 +1,29 @@
+.box-shadow(@a, @b, @c, @p, @l) {
+    -webkit-box-shadow: @a @b @c rgba(@p, @p, @p, @l);
+    -moz-box-shadow:    @a @b @c rgba(@p, @p, @p, @l);
+    box-shadow:         @a @b @c rgba(@p, @p, @p, @l);
+}
+
+.top-border-radius(@a) {
+    -webkit-border-top-left-radius: @a;
+    -webkit-border-top-right-radius: @a;
+    -moz-border-radius-topleft: @a;
+    -moz-border-radius-topright: @a;
+    border-top-left-radius: @a;
+    border-top-right-radius: @a;
+}
+
+.bottom-border-radius(@a) {
+    -webkit-border-bottom-right-radius: @a;
+    -webkit-border-bottom-left-radius: @a;
+    -moz-border-radius-bottomright: @a;
+    -moz-border-radius-bottomleft: @a;
+    border-bottom-right-radius: @a;
+    border-bottom-left-radius: @a;
+}
+
+.border-radius(@a) {
+    .top-border-radius(@a);
+    .bottom-border-radius(@a);
+}
+
